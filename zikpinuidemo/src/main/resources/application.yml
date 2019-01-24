@@ -1,0 +1,13 @@
+server:
+  port: 10086
+spring:
+  application:
+  name: my-zikpin-server
+  cloud:
+    stream:
+      rabbit:
+        binder:
+          admin-addresses: 127.0.0.1
+  rabbitmq:
+    port: 5672
+    host: 119.29.163.100

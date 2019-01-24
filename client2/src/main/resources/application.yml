@@ -3,6 +3,9 @@ spring:
     name: service-hi
   zipkin:
     base-url: http://127.0.0.1:10086
+  rabbitmq:
+    port: 5672
+    host: 119.29.163.100
 server:
   port: 8763
 eureka:

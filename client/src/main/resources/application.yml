@@ -1,6 +1,9 @@
 spring:
   application:
     name: service-hi
+  rabbitmq:
+    port: 5672
+    host: 119.29.163.100
 server:
   port: 8762
 eureka:

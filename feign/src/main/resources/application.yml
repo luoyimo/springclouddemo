@@ -3,6 +3,9 @@ spring:
     name: service-feign
   zipkin:
     base-url: http://127.0.0.1:10086
+  rabbitmq:
+    port: 5672
+    host: 119.29.163.100
 server:
   port: 8765
 eureka:
@@ -11,4 +14,4 @@ eureka:
       defaultzone: http://localhost:8761/eureka/
 feign:
   hystrix:
-   enabled: true
+    enabled: true
