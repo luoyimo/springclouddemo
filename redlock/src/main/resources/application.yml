@@ -1,0 +1,5 @@
+spring:
+  redis:
+    host: 119.29.20.128
+    port: 6379
+    password: eees@#$!1234

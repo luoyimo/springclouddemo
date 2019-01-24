@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luoyimo/springcloudtest/
+          search-paths: repos
+          username:
+          password:
+      label: master
+
+server:
+  port: 8888
+#eureka:
+#  client:
+#    service-url: http://127.0.0.1:8761
